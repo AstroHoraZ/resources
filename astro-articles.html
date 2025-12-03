@@ -11,7 +11,7 @@
   <meta name="google-site-verification" content="784AfhVJJhSf58ijBHRXDGUMKWmP_xg6ARWLDRpwxy4" />
   <meta property="og:url" content="https://astrohoraz.github.io/resources/astro-articles.html" />
   <style>
-    :root{--bg:#fff;--muted:#666;--accent:#0b63b8;--container:960px}
+    :root{--bg:#fff;--muted:#666;--accent:#0b63b8;--container:980px}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;color:#111;background:var(--bg);line-height:1.75}
     header{background:#f6fbff;border-bottom:1px solid #e6eef8}
     .wrap{max-width:var(--container);margin:0 auto;padding:28px}
@@ -20,10 +20,11 @@
     h2{font-size:20px;margin:22px 0 8px;color:#0b3f6b}
     p{margin:10px 0}
     .muted{color:var(--muted);font-size:14px}
-    .content{max-width:760px}
     .cta{display:inline-block;margin-top:12px;padding:10px 14px;background:var(--accent);color:#fff;border-radius:6px;text-decoration:none}
     footer{border-top:1px solid #eee;padding:18px;margin-top:30px;font-size:14px;color:var(--muted)}
-    aside{margin-top:18px;border-left:4px solid #f0f6fb;padding-left:14px;color:var(--muted)}
+    .two{display:grid;grid-template-columns:1fr;gap:18px}
+    @media(min-width:880px){.two{grid-template-columns:1fr 320px}}
+    aside{background:#fbfdff;border-left:1px solid #eef5fb;padding:14px;border-radius:6px}
   </style>
 </head>
 <body>
